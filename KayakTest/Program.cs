@@ -1,11 +1,11 @@
 ﻿using System;
+using System.Net;
+
+using Gate.Hosts.Kayak;
+using Kayak;
 
 namespace KayakTest
 {
-    using System.Diagnostics;
-    using System.Net;
-
-    using Gate.Kayak;
 
     class Program
     {
@@ -14,8 +14,7 @@ namespace KayakTest
             var ep = new IPEndPoint(IPAddress.Any, 8889);
             Console.WriteLine("Listening on " + ep);
             Console.WriteLine("Press CTRL+C to quit :-)");
-            Process.Start("http://localhost:8889");
-            KayakGate.Start(new SchedulerDelegate(), ep, Startup.Configuration);
+            KayakGate.Start(new SchedulerDelegate(), ep, Gate.Adapters.Nancy.NancyAdapter.App());
         }
     }
 }

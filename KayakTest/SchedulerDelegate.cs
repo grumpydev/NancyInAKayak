@@ -1,9 +1,8 @@
-﻿namespace KayakTest
+﻿using System;
+using Kayak;
+
+namespace KayakTest
 {
-    using System;
-
-    using Kayak;
-
     public class SchedulerDelegate : ISchedulerDelegate
     {
         public void OnException(IScheduler scheduler, Exception e)

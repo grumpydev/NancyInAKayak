@@ -1,9 +1,8 @@
-﻿namespace KayakTest
+﻿using KayakTest.Models;
+using Nancy;
+
+namespace KayakTest
 {
-    using KayakTest.Models;
-
-    using Nancy;
-
     public class MainModule : NancyModule
     {
         public MainModule()

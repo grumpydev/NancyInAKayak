@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyInGate", "KayakTest\NancyInGate.csproj", "{CDE268FE-DDFC-4F4B-B7A7-E626428C2E7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyInGate", "NancyInGate\NancyInGate.csproj", "{CDE268FE-DDFC-4F4B-B7A7-E626428C2E7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E1280F80-204E-47DD-A0AE-ADF1D4B61235}"
 	ProjectSection(SolutionItems) = preProject

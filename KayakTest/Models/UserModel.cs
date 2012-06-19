@@ -1,4 +1,4 @@
-﻿namespace KayakTest.Models
+﻿namespace NancyInGate.Models
 {
     public class UserModel
     {

@@ -1,7 +1,7 @@
-﻿using KayakTest.Models;
+﻿using NancyInGate.Models;
 using Nancy;
 
-namespace KayakTest
+namespace NancyInGate
 {
     public class MainModule : NancyModule
     {

@@ -16,6 +16,9 @@
             If you want to utilize File and Registry Virtualization for backward 
             compatibility then delete the requestedExecutionLevel node.
         -->
+        <!-- Using HTTPListener requires administrative privileges or
+             see http://stackoverflow.com/questions/443640/httplistener-start-accessdenied-error-on-vista
+        -->
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
       </requestedPrivileges>
     </security>
